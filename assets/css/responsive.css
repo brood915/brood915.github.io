@@ -54,24 +54,20 @@
 		margin-right: 20px;	
 	}
 	
-	#social-area #social ul li {
+	#social a{
 		margin-left: 15px;
 	}
 	
-	#social-area #social ul li a {
+#social a {
 		width: 50px;
 		height: 50px;
 	}
 	
-	#social-area #social ul li a span {
+#social a{
 		font-size: 24px;
 		line-height: 50px;
 	}
 	
-	#twitter-feed {
-		padding-top: 110px;
-		padding-bottom: 110px;	
-	}
 	
 	.info-block a.button {
     	margin-top: 20px;
@@ -99,7 +95,6 @@
 	#navigation-mobile,
 	.page,
 	.page-alternate,
-	#twitter-feed,
 	footer {
 		margin-left: -20px;
 		margin-right: -20px;
@@ -196,35 +191,6 @@
 		box-sizing: border-box;	
 	}
 	
-	#social-area #social ul li:first-child,
-	#social-area #social ul li {
-		margin: 15px;
-	}
-	
-	#social-area #social ul li a {
-		width: 50px;
-		height: 50px;
-	}
-	
-	#social-area #social ul li a span {
-		font-size: 24px;
-		line-height: 50px;
-	}
-	
-	#twitter-feed {
-		padding-top: 90px;
-		padding-bottom: 100px;	
-	}
-	
-	#ticker .tweet_list li {
-		font-size: 16px;
-		line-height: 24px;
-	}
-	
-	#ticker .tweet_list .tweet_time a {
-		font-size: 13px;
-		margin-left: 5px;	
-	}
 	
 	.info-block a.button {
     	margin-top: 20px;
@@ -253,7 +219,6 @@
 	#navigation-mobile,
 	.page,
 	.page-alternate,
-	#twitter-feed,
 	footer {
 		margin-left: -20px;
 		margin-right: -20px;
@@ -359,36 +324,6 @@
 		box-sizing: border-box;	
 	}
 	
-	#social-area #social ul li:first-child,
-	#social-area #social ul li {
-		margin: 15px;
-	}
-	
-	#social-area #social ul li a {
-		width: 50px;
-		height: 50px;
-	}
-	
-	#social-area #social ul li a span {
-		font-size: 24px;
-		line-height: 50px;
-	}
-	
-	#twitter-feed {
-		padding-top: 90px;
-		padding-bottom: 100px;	
-	}
-	
-	#ticker .tweet_list li {
-		font-size: 14px;
-		line-height: 22px;
-	}
-	
-	#ticker .tweet_list .tweet_time a {
-		font-size: 12px;
-		margin-left: 3px;	
-	}
-	
 	.info-block a.button {
     	margin-top: 20px;
     	position: inherit;
@@ -400,7 +335,7 @@
 	}
 }
 
-@media (max-width: 320px) {
+@media (max-width: 372px) {
 	#navigation-mobile li a {
 		padding: 20px 0;
 	}
@@ -408,12 +343,30 @@
 	.work-nav #filters li a {
 		font-size: 12px;
 	}
+
+	#social a {
+	margin: 15px;
+	}
 	
-	#twitter-feed {
-		padding-top: 90px;
-		padding-bottom: 120px;	
+	.fa {
+	font-size: 25px;
 	}
 }
+
+
+
+@media (max-width: 320px) {
+	#navigation-mobile li a {
+		padding: 20px 0;
+	}
+	
+	.work-nav #filters li a {
+		font-size: 20px;
+	}
+
+}
+
+
 
 
 /* Retina Display */

@@ -2,6 +2,10 @@ jQuery(function($){
 
 var BRUSHED = window.BRUSHED || {};
 
+
+
+
+
 /* ==================================================
    Mobile Navigation
 ================================================== */
@@ -99,6 +103,7 @@ BRUSHED.slider = function(){
 BRUSHED.nav = function(){
 	$('.sticky-nav').waypoint('sticky');
 }
+
 
 
 /* ==================================================
@@ -305,13 +310,7 @@ BRUSHED.utils = function(){
 	$('.image-wrap').bind('touchstart', function(){
 		$(".active").removeClass("active");
       	$(this).addClass('active');
-    });
-	
-	$('#social ul li').bind('touchstart', function(){
-		$(".active").removeClass("active");
-      	$(this).addClass('active');
-    });
-	
+    });	
 }
 
 /* ==================================================

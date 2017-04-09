@@ -251,7 +251,10 @@ new OnePageNav(this, options).init();
 
 })( jQuery, window , document );
 
-// typing effect
+
+
+//Typing Effect
+
 (function($, window, document) {
     $(function() {
         var LOGO = LOGO || {};
@@ -276,7 +279,7 @@ new OnePageNav(this, options).init();
                 this.elements.container.css({
                     'width': 'auto'
                 });
-                this.elements.cursor.hide()
+                this.elements.cursor.hide();
             },
 
             init: function() {
