@@ -361,26 +361,22 @@
     <!-- Contact Form -->
     <div class="row">
     	<div class="span9">
-        
-        	<form id="contact-form" class="contact-form" action="#">
+        	<form id="contact-form" class="contact-form" action="https://formspree.io/brood915@gmail.com"
+      method="POST">
             	<p class="contact-name">
             		<input id="contact_name" type="text" placeholder="Your Full Name" value="" name="name"/>
                 </p>
                 <p class="contact-email">
-                	<input id="contact_email" type="email" placeholder="Your Email Address" value="" name="email"/>
+                	<input id="contact_email" type="email" placeholder="Your Email Address" value="" name="email" required/>
                 </p>
                 <p class="contact-message">
                 	<textarea id="contact_message" placeholder="Your Message" name="message" rows="15" cols="40"></textarea>
                 </p>
                 <p class="contact-submit">
-                	<a id="contact-submit" class="submit" href="#">Send Your Email</a>
+                	<input type="submit" id="contact-submit" class="submit" value="Send Your Email" />
                 </p>
-                
-                <div id="response">
-                
-                </div>
+	                <input type="hidden" name="_next" value="//site.io/thanks.html" />
             </form>
-         
         </div>
         
         <div class="span3">
