@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.1",
+  "description": "kevin jang's portfolio site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brood915/brood915.github.io.git"
+  },
+  "keywords": [
+    "portfolio",
+    "site"
+  ],
+  "author": "Kevin Jang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brood915/brood915.github.io/issues"
+  },
+  "homepage": "https://github.com/brood915/brood915.github.io#readme"
+}
