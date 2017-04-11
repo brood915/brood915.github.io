@@ -48,6 +48,10 @@ a{
 		    transition: color 0.1s linear 0s;
 }
 
+
+.skills a {
+color: red;
+}
 a:hover
 {
 	outline: 0;
