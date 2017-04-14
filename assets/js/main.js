@@ -47,7 +47,7 @@ BRUSHED.listenerMenu = function(){
 
 
 /* ==================================================
-   Slider Options
+   Loading Image Options
 ================================================== */
 
 BRUSHED.slider = function(){
@@ -82,8 +82,8 @@ BRUSHED.slider = function(){
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
 										
-											{image : '_include/img/slider-images/image02.jpg', title : '<div class="slide-content">Brushed</div>', thumb : '', url : ''},
-											{image : '_include/img/slider-images/image03.jpg', title : '<div class="slide-content">Brushed</div>', thumb : '', url : ''},
+											{image : '', title : '<div class="slide-content">Brushed</div>', thumb : '', url : ''},
+											{image : '', title : '<div class="slide-content">Brushed</div>', thumb : '', url : ''},
 											
 									],
 									
@@ -371,22 +371,6 @@ BRUSHED.toolTip = function(){
 BRUSHED.slider();
 
 $(document).ready(function(){
-	Modernizr.load([
-	{
-		test: Modernizr.placeholder,
-		nope: '_include/js/placeholder.js', 
-		complete : function() {
-				if (!Modernizr.placeholder) {
-						Placeholders.init({
-						live: true,
-						hideOnFocus: false,
-						className: "yourClass",
-						textColor: "#999"
-						});    
-				}
-		}
-	}
-	]);
 	
 	// Preload the page with jPreLoader
 	$('body').jpreLoader({
@@ -408,12 +392,10 @@ $(document).ready(function(){
 	BRUSHED.filter();
 	BRUSHED.fancyBox();
 	BRUSHED.contactForm();
-	BRUSHED.tweetFeed();
 	BRUSHED.scrollToTop();
 	BRUSHED.utils();
 	BRUSHED.accordion();
 	BRUSHED.toggle();
-	BRUSHED.toolTip();
 });
 
 $(window).resize(function(){
