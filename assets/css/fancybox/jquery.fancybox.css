@@ -304,12 +304,7 @@
 }
 
 @media (max-width: 480px) {
-	.fancybox-nav span,
-	.fancybox-nav:hover span,
-	.fancybox-close,
-	.fancybox-close:hover {
-		background: transparent;	
-	}
+
 	
 	.fancybox-close i {
 		left: 30px;
