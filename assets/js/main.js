@@ -354,7 +354,6 @@ $(document).ready(function(){
 	BRUSHED.goUp();
 	BRUSHED.filter();
 	BRUSHED.fancyBox();
-	BRUSHED.contactForm();
 	BRUSHED.scrollToTop();
 	BRUSHED.utils();
 	BRUSHED.accordion();
